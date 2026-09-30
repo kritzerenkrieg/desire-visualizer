@@ -10,14 +10,14 @@ shows the music-to-syllable mapping so it can be judged by eye and ear. The outp
 
 | Path | What |
 |---|---|
-| `audio/` | inputs: `source.mp3` (fMP4/AAC despite the name), `vocals.mp3` (hand-made vocal isolation), `lyrics.txt` (display text, one line per sung line), `syllable.txt` (sung syllable sequence per line) |
-| `analysis/` | the active pipeline: `analyze.py`, `word_syllables.py`, `pilot.py`, `common.py` |
-| `legacy/` | the superseded mora/DP pass (`lyric_units.py`, `align_lyrics.py`) and the L1 decode proof (`check_decode.py`). `analyze.py` / `pilot.py` still import the orthography helpers from here. |
-| `data/` | `lyrics.approx.json` (the alignment the engine reads), `syllable_map.json` (editable syllable→word grouping) |
-| `analysis/work/` | intermediates: `features_{mix,stem,vocal}.npz`, whisper word-times cache, decode report |
-| `analysis/qa/` | reports and QA plots |
-| `out/` | pilot renders `pilot_<a>_<b>.mp4` + `pilot_<a>_<b>_strip.png` |
-| `tools/ff/` | static ffmpeg (no root needed) |
+| `audio/`          | inputs: `source.mp3` (fMP4/AAC despite the name), `vocals.mp3` (hand-made vocal isolation), `lyrics.txt` (display text, one line per sung line), `syllable.txt` (sung syllable sequence per line) |
+| `analysis/`       | the active pipeline: `analyze.py`, `word_syllables.py`, `pilot.py`, `common.py` |
+| `legacy/`         | the superseded mora/DP pass (`lyric_units.py`, `align_lyrics.py`) and the L1 decode proof (`check_decode.py`). `analyze.py` / `pilot.py` still import the orthography helpers from here. |
+| `data/`           | `lyrics.approx.json` (the alignment the engine reads), `syllable_map.json` (editable syllable→word grouping) |
+| `analysis/work/`  | intermediates: `features_{mix,stem,vocal}.npz`, whisper word-times cache, decode report |
+| `analysis/qa/`    | reports and QA plots |
+| `out/`            | pilot renders `pilot_<a>_<b>.mp4` + `pilot_<a>_<b>_strip.png` |
+| `tools/ff/`       | static ffmpeg (no root needed) |
 
 All commands run from the repo root with the project venv:
 

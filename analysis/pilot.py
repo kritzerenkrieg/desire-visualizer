@@ -37,7 +37,6 @@ import numpy as np
 
 import common
 
-sys.path.append(str(common.ROOT / "legacy"))  # mora/orthography helpers live in legacy/
 import lyric_units
 
 FFMPEG = common.TOOLS / "ff" / "ffmpeg"
@@ -142,9 +141,8 @@ def units_of(doc: dict) -> list[dict]:
     Times come only from the JSON (that is what the engine reads); the glyph text comes from
     lyric_units via the aligner's own split, so the labels match the lyric source.
     """
-    import align_lyrics
     lines, _, _, _ = lyric_units.parse()
-    flat = align_lyrics.flatten_units(lines)[0]
+    flat = lyric_units.flatten_units(lines)[0]
     out, k = [], 0
     for ln in doc["lines"]:
         for wi, w in enumerate(ln["words"]):

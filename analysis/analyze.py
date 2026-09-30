@@ -33,7 +33,6 @@ from scipy.signal import butter, find_peaks, sosfiltfilt
 
 import common
 
-sys.path.append(str(common.ROOT / "legacy"))  # mora/orthography helpers live in legacy/
 import lyric_units
 
 FPS = common.FPS                    # 100 envelopes per second (the engine's contract)
