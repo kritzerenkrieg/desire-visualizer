@@ -1,0 +1,2608 @@
+{
+ "source": {
+  "lyrics": "audio/lyrics.txt",
+  "syllables": "audio/syllable.txt"
+ },
+ "note": "Draft grouping of the sung syllable sequence (audio/syllable.txt, 'syl' tokens in sung order) onto the whitespace words of audio/lyrics.txt. To fix a grouping, move tokens between neighbouring words; the flattened 'syl' list per line must stay identical to the sung sequence or analysis/word_syllables.py refuses the file. method=chunks/ratio/generated records how each line's draft split was guessed. Lines flagged 'generated' have no sung reading (outro) and use one token per word.",
+ "stats": {
+  "chunks": 14,
+  "ratio": 55,
+  "generated": 5,
+  "sparse": 1
+ },
+ "lines": [
+  {
+   "i": 0,
+   "text": "Ah 心に渦巻く 計算や欲望は全て",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Ah",
+     "syl": [
+      "ah"
+     ]
+    },
+    {
+     "w": "心に渦巻く",
+     "syl": [
+      "kokoro",
+      "ni",
+      "uzumaku"
+     ]
+    },
+    {
+     "w": "計算や欲望は全て",
+     "syl": [
+      "keisan’",
+      "ya",
+      "yokubou",
+      "wa",
+      "subete"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "text": "笑顔で隠れる 少しだけ邪なPoker Face",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "笑顔で隠れる",
+     "syl": [
+      "egao",
+      "de",
+      "kakureru"
+     ]
+    },
+    {
+     "w": "少しだけ邪なPoker",
+     "syl": [
+      "sukoshi",
+      "dake",
+      "yokoshima",
+      "na"
+     ]
+    },
+    {
+     "w": "Face",
+     "syl": [
+      "poker",
+      "face"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "text": "短き人の命 パッと咲かせてあげるから on my Tao",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "短き人の命",
+     "syl": [
+      "mijikaki",
+      "hito",
+      "no"
+     ]
+    },
+    {
+     "w": "パッと咲かせてあげるから",
+     "syl": [
+      "inochi",
+      "patto",
+      "sakaseteageru",
+      "kara"
+     ]
+    },
+    {
+     "w": "on",
+     "syl": [
+      "on"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "Tao",
+     "syl": [
+      "tao"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "text": "愛らしいお人形になりましょう I'm ready",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "愛らしいお人形になりましょう",
+     "syl": [
+      "airashi",
+      "onin’gyou",
+      "ni",
+      "narimashou"
+     ]
+    },
+    {
+     "w": "I'm",
+     "syl": [
+      "I’m"
+     ]
+    },
+    {
+     "w": "ready",
+     "syl": [
+      "ready"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "text": "It's not really fun knowing the choices",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "It's",
+     "syl": [
+      "it’s"
+     ]
+    },
+    {
+     "w": "not",
+     "syl": [
+      "not"
+     ]
+    },
+    {
+     "w": "really",
+     "syl": [
+      "really"
+     ]
+    },
+    {
+     "w": "fun",
+     "syl": [
+      "fun"
+     ]
+    },
+    {
+     "w": "knowing",
+     "syl": [
+      "knowing"
+     ]
+    },
+    {
+     "w": "the",
+     "syl": [
+      "the"
+     ]
+    },
+    {
+     "w": "choices",
+     "syl": [
+      "choices"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "text": "往く先々待つ玩具たち",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "往く先々待つ玩具たち",
+     "syl": [
+      "yukusakizaki",
+      "matsu",
+      "omochatachi"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "text": "我想要的一切！さぁ順番",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "我想要的一切！さぁ順番",
+     "syl": [
+      "wǒ",
+      "xiǎng",
+      "yào",
+      "de",
+      "yīqiè!",
+      "saa",
+      "jun’ban’"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "text": "\"良い子\"は先に お持ち帰り",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "\"良い子\"は先に",
+     "syl": [
+      "“iiko”",
+      "wa",
+      "saki"
+     ]
+    },
+    {
+     "w": "お持ち帰り",
+     "syl": [
+      "ni",
+      "omochikaeri"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "text": "Please now let you be in my sweet little thangs",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Please",
+     "syl": [
+      "please"
+     ]
+    },
+    {
+     "w": "now",
+     "syl": [
+      "now"
+     ]
+    },
+    {
+     "w": "let",
+     "syl": [
+      "let"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "you"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "sweet",
+     "syl": [
+      "sweet"
+     ]
+    },
+    {
+     "w": "little",
+     "syl": [
+      "little"
+     ]
+    },
+    {
+     "w": "thangs",
+     "syl": [
+      "thangs"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "text": "ヤな事ナシのシャングリラへ 堅いことは此処では言わないで",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "ヤな事ナシのシャングリラへ",
+     "syl": [
+      "ya",
+      "na",
+      "koto",
+      "nashi",
+      "no",
+      "shangri-la"
+     ]
+    },
+    {
+     "w": "堅いことは此処では言わないで",
+     "syl": [
+      "e",
+      "katai",
+      "koko",
+      "wa",
+      "koko",
+      "de",
+      "wa",
+      "iwanaide"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "text": "果てしなく続くファンタジア",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "果てしなく続くファンタジア",
+     "syl": [
+      "hateshinaku",
+      "tsudzuku",
+      "fantasia"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "text": "How can I get what I want from around the world?",
+   "method": "ratio",
+   "generated": false,
+   "sparse": true,
+   "words": [
+    {
+     "w": "How",
+     "syl": [
+      "how"
+     ]
+    },
+    {
+     "w": "can",
+     "syl": [
+      "can"
+     ]
+    },
+    {
+     "w": "I",
+     "syl": [
+      "I"
+     ]
+    },
+    {
+     "w": "get",
+     "syl": [
+      "get"
+     ]
+    },
+    {
+     "w": "what",
+     "syl": [
+      "it"
+     ]
+    },
+    {
+     "w": "I",
+     "syl": [
+      "from"
+     ]
+    },
+    {
+     "w": "want",
+     "syl": [
+      "around"
+     ]
+    },
+    {
+     "w": "from",
+     "syl": [
+      "the"
+     ]
+    },
+    {
+     "w": "around",
+     "syl": [
+      "world?"
+     ]
+    },
+    {
+     "w": "the",
+     "syl": []
+    },
+    {
+     "w": "world?",
+     "syl": []
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "text": "子供のように 鼓動が歌う I just keep my desire",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "子供のように",
+     "syl": [
+      "kodomo",
+      "no",
+      "you"
+     ]
+    },
+    {
+     "w": "鼓動が歌う",
+     "syl": [
+      "ni",
+      "kodou",
+      "ga"
+     ]
+    },
+    {
+     "w": "I",
+     "syl": [
+      "utau"
+     ]
+    },
+    {
+     "w": "just",
+     "syl": [
+      "I"
+     ]
+    },
+    {
+     "w": "keep",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "keep"
+     ]
+    },
+    {
+     "w": "desire",
+     "syl": [
+      "my",
+      "desire"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "text": "幾千の時さえ piece of cake like ordinal breathing",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "幾千の時さえ",
+     "syl": [
+      "ikusen’",
+      "no"
+     ]
+    },
+    {
+     "w": "piece",
+     "syl": [
+      "toki",
+      "sae"
+     ]
+    },
+    {
+     "w": "of",
+     "syl": [
+      "piece"
+     ]
+    },
+    {
+     "w": "cake",
+     "syl": [
+      "of"
+     ]
+    },
+    {
+     "w": "like",
+     "syl": [
+      "cake"
+     ]
+    },
+    {
+     "w": "ordinal",
+     "syl": [
+      "like",
+      "ordinal"
+     ]
+    },
+    {
+     "w": "breathing",
+     "syl": [
+      "breathing"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "text": "超えてゆける 願いを小心",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "超えてゆける",
+     "syl": [
+      "koeteyukeru",
+      "negai"
+     ]
+    },
+    {
+     "w": "願いを小心",
+     "syl": [
+      "wo",
+      "shoushin’"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "text": "「二つに一つ」なんて退屈な事 言わないで頂戴",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "「二つに一つ」なんて退屈な事",
+     "syl": [
+      "“futatsu",
+      "ni",
+      "hitotsu”",
+      "nan’te",
+      "taikutsu"
+     ]
+    },
+    {
+     "w": "言わないで頂戴",
+     "syl": [
+      "na",
+      "koto",
+      "iwanaide",
+      "choudai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "text": "Anything in my hands",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Anything",
+     "syl": [
+      "anything"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "hands",
+     "syl": [
+      "hands"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "text": "ただ一つの後悔も背負う気はないわ",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "ただ一つの後悔も背負う気はないわ",
+     "syl": [
+      "tada",
+      "hitotsu",
+      "no",
+      "koukai",
+      "mo",
+      "seou",
+      "ki",
+      "wa",
+      "nai",
+      "wa"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "text": "今を生きて 乙女のように",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "今を生きて",
+     "syl": [
+      "ima",
+      "wo",
+      "ikite"
+     ]
+    },
+    {
+     "w": "乙女のように",
+     "syl": [
+      "otome",
+      "no",
+      "you",
+      "ni"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "text": "\"Now let me please, ask you a question\"",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "\"Now",
+     "syl": [
+      "“now"
+     ]
+    },
+    {
+     "w": "let",
+     "syl": [
+      "let"
+     ]
+    },
+    {
+     "w": "me",
+     "syl": [
+      "me"
+     ]
+    },
+    {
+     "w": "please,",
+     "syl": [
+      "please,"
+     ]
+    },
+    {
+     "w": "ask",
+     "syl": [
+      "ask"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "you"
+     ]
+    },
+    {
+     "w": "a",
+     "syl": [
+      "a"
+     ]
+    },
+    {
+     "w": "question\"",
+     "syl": [
+      "question”"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "text": "私のように？ なりたいだなんて... お莫迦さんは",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "私のように？",
+     "syl": [
+      "watashi",
+      "no",
+      "you"
+     ]
+    },
+    {
+     "w": "なりたいだなんて...",
+     "syl": [
+      "ni?",
+      "naritai",
+      "da",
+      "nan’te"
+     ]
+    },
+    {
+     "w": "お莫迦さんは",
+     "syl": [
+      "…",
+      "obaka-san’",
+      "wa"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "text": "コレクションに加わる事から始めて",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "コレクションに加わる事から始めて",
+     "syl": [
+      "collection",
+      "ni",
+      "kuwawaru",
+      "koto",
+      "kara",
+      "hajimete"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "text": "それで如何？イケないセレブレーション",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "それで如何？イケないセレブレーション",
+     "syl": [
+      "sore",
+      "de",
+      "ikaga?",
+      "ikenai",
+      "celebration"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "text": "Just be in fantasia それも悪くない",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Just",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "fantasia",
+     "syl": [
+      "fantasia",
+      "sore"
+     ]
+    },
+    {
+     "w": "それも悪くない",
+     "syl": [
+      "mo",
+      "warukunai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "text": "此処にある夢や faith of 私以外",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "此処にある夢や",
+     "syl": [
+      "koko",
+      "ni",
+      "aru",
+      "yume"
+     ]
+    },
+    {
+     "w": "faith",
+     "syl": [
+      "ya"
+     ]
+    },
+    {
+     "w": "of",
+     "syl": [
+      "faith"
+     ]
+    },
+    {
+     "w": "私以外",
+     "syl": [
+      "of",
+      "watashi",
+      "igai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "text": "飽きるまでふわりふわり雲のように",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "飽きるまでふわりふわり雲のように",
+     "syl": [
+      "akiru",
+      "made",
+      "fuwarifuwari",
+      "kumo",
+      "no",
+      "you",
+      "ni"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "text": "自由に流れてくdesert years",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "自由に流れてくdesert",
+     "syl": [
+      "jiyuu",
+      "ni",
+      "nagareteku",
+      "desert"
+     ]
+    },
+    {
+     "w": "years",
+     "syl": [
+      "years"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "text": "Ah「いつでも待ってる」そんなロマンチックな言葉",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Ah「いつでも待ってる」そんなロマンチックな言葉",
+     "syl": [
+      "ah",
+      "“itsudemo",
+      "matteru”",
+      "son’na",
+      "romantic",
+      "na",
+      "kotoba"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "text": "痺れて 感じて 骨抜きにさせてあげちゃうわ",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "痺れて",
+     "syl": [
+      "shibirete",
+      "kan’jite"
+     ]
+    },
+    {
+     "w": "感じて",
+     "syl": [
+      "honenuki"
+     ]
+    },
+    {
+     "w": "骨抜きにさせてあげちゃうわ",
+     "syl": [
+      "ni",
+      "saseteagechau",
+      "wa"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "text": "短き人の命 パッと咲かせてあげるから on my Tao",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "短き人の命",
+     "syl": [
+      "mijikaki",
+      "hito",
+      "no"
+     ]
+    },
+    {
+     "w": "パッと咲かせてあげるから",
+     "syl": [
+      "inochi",
+      "patto",
+      "sakaseteageru",
+      "kara"
+     ]
+    },
+    {
+     "w": "on",
+     "syl": [
+      "on"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "Tao",
+     "syl": [
+      "tao"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "text": "愛らしい人形になりましょう you're welcome",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "愛らしい人形になりましょう",
+     "syl": [
+      "airashii",
+      "nin’gyou",
+      "ni"
+     ]
+    },
+    {
+     "w": "you're",
+     "syl": [
+      "narimashou"
+     ]
+    },
+    {
+     "w": "welcome",
+     "syl": [
+      "you’re",
+      "welcome"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "text": "It's not really fun knowing the choices",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "It's",
+     "syl": [
+      "it’s"
+     ]
+    },
+    {
+     "w": "not",
+     "syl": [
+      "not"
+     ]
+    },
+    {
+     "w": "really",
+     "syl": [
+      "really"
+     ]
+    },
+    {
+     "w": "fun",
+     "syl": [
+      "fun"
+     ]
+    },
+    {
+     "w": "knowing",
+     "syl": [
+      "knowing"
+     ]
+    },
+    {
+     "w": "the",
+     "syl": [
+      "the"
+     ]
+    },
+    {
+     "w": "choices",
+     "syl": [
+      "choices"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "text": "ギャンブルライクに生きましょう",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "ギャンブルライクに生きましょう",
+     "syl": [
+      "gambler-like",
+      "ni",
+      "ikimashou"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "text": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+     "syl": [
+      "wǒ",
+      "xiǎng",
+      "yào",
+      "de",
+      "yīqiè!",
+      "saa",
+      "jun’ban’",
+      "mamoranai",
+      "ko",
+      "mo",
+      "omochikaeri"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "text": "Please now let you be in my sweet little thangs",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Please",
+     "syl": [
+      "please"
+     ]
+    },
+    {
+     "w": "now",
+     "syl": [
+      "now"
+     ]
+    },
+    {
+     "w": "let",
+     "syl": [
+      "let"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "you"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "sweet",
+     "syl": [
+      "sweet"
+     ]
+    },
+    {
+     "w": "little",
+     "syl": [
+      "little"
+     ]
+    },
+    {
+     "w": "thangs",
+     "syl": [
+      "thangs"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "text": "いいコト尽くしの理想郷 堅いことは此処では言わないで",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "いいコト尽くしの理想郷",
+     "syl": [
+      "ii",
+      "koto",
+      "tsukushi",
+      "no",
+      "risoukyou",
+      "katai"
+     ]
+    },
+    {
+     "w": "堅いことは此処では言わないで",
+     "syl": [
+      "koto",
+      "wa",
+      "koko",
+      "de",
+      "wa",
+      "iwanaide"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 36,
+   "text": "まぁすぐに言えなくなるから",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "まぁすぐに言えなくなるから",
+     "syl": [
+      "maa",
+      "sugu",
+      "ni",
+      "ienakunaru",
+      "kara"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 37,
+   "text": "It's not really fun knowing the choices",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "It's",
+     "syl": [
+      "It’s"
+     ]
+    },
+    {
+     "w": "not",
+     "syl": [
+      "not"
+     ]
+    },
+    {
+     "w": "really",
+     "syl": [
+      "really"
+     ]
+    },
+    {
+     "w": "fun",
+     "syl": [
+      "fun"
+     ]
+    },
+    {
+     "w": "knowing",
+     "syl": [
+      "knowing"
+     ]
+    },
+    {
+     "w": "the",
+     "syl": [
+      "the"
+     ]
+    },
+    {
+     "w": "choices",
+     "syl": [
+      "choices"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 38,
+   "text": "往く先々待つ玩具たち",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "往く先々待つ玩具たち",
+     "syl": [
+      "yukusakizaki",
+      "matsu",
+      "omochatachi"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 39,
+   "text": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+     "syl": [
+      "wǒ",
+      "xiǎng",
+      "yào",
+      "de",
+      "yīqiè!",
+      "saa",
+      "jun’ban’",
+      "mamoranai",
+      "ko",
+      "mo",
+      "omochikaeri"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 40,
+   "text": "Please now let you be in my sweet little thangs",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Please",
+     "syl": [
+      "please"
+     ]
+    },
+    {
+     "w": "now",
+     "syl": [
+      "now"
+     ]
+    },
+    {
+     "w": "let",
+     "syl": [
+      "let"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "you"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "sweet",
+     "syl": [
+      "sweet"
+     ]
+    },
+    {
+     "w": "little",
+     "syl": [
+      "little"
+     ]
+    },
+    {
+     "w": "thangs",
+     "syl": [
+      "thangs"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 41,
+   "text": "ヤな事ナシのシャングリラへ 片道切符握りしめて",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "ヤな事ナシのシャングリラへ",
+     "syl": [
+      "ya",
+      "na",
+      "koto",
+      "nashi"
+     ]
+    },
+    {
+     "w": "片道切符握りしめて",
+     "syl": [
+      "no",
+      "shangri-la",
+      "e",
+      "katamichikippu",
+      "nigirishimete"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 42,
+   "text": "夢の都へDive",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "夢の都へDive",
+     "syl": [
+      "yume",
+      "no",
+      "miyako",
+      "e",
+      "dive"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 43,
+   "text": "手に入れるチャンスが転がっているのに",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "手に入れるチャンスが転がっているのに",
+     "syl": [
+      "te",
+      "ni",
+      "ireru",
+      "chance",
+      "ga",
+      "korogatteiru",
+      "no",
+      "ni"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 44,
+   "text": "見つめてるだけの自分なんて見たくないのよ baby",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "見つめてるだけの自分なんて見たくないのよ",
+     "syl": [
+      "mitsumeteru",
+      "dake",
+      "no",
+      "jibun’",
+      "nan’te",
+      "mitakunai",
+      "no"
+     ]
+    },
+    {
+     "w": "baby",
+     "syl": [
+      "yo",
+      "baby"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 45,
+   "text": "How many things 人は後悔を重ねていくのでしょう",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "How",
+     "syl": [
+      "how"
+     ]
+    },
+    {
+     "w": "many",
+     "syl": [
+      "many",
+      "things"
+     ]
+    },
+    {
+     "w": "things",
+     "syl": [
+      "hito"
+     ]
+    },
+    {
+     "w": "人は後悔を重ねていくのでしょう",
+     "syl": [
+      "wa",
+      "koukai",
+      "wo",
+      "kasaneteiku",
+      "no",
+      "deshou"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 46,
+   "text": "So you can beg me 救いの手を",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "So",
+     "syl": [
+      "so",
+      "you"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "can"
+     ]
+    },
+    {
+     "w": "can",
+     "syl": [
+      "beg"
+     ]
+    },
+    {
+     "w": "beg",
+     "syl": [
+      "me"
+     ]
+    },
+    {
+     "w": "me",
+     "syl": [
+      "sukui"
+     ]
+    },
+    {
+     "w": "救いの手を",
+     "syl": [
+      "no",
+      "te",
+      "wo"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 47,
+   "text": "今 此処へ 差し出すわ It's so easy",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "今",
+     "syl": [
+      "ima"
+     ]
+    },
+    {
+     "w": "此処へ",
+     "syl": [
+      "koko",
+      "e"
+     ]
+    },
+    {
+     "w": "差し出すわ",
+     "syl": [
+      "sashidasu",
+      "wa"
+     ]
+    },
+    {
+     "w": "It's",
+     "syl": [
+      "it’s"
+     ]
+    },
+    {
+     "w": "so",
+     "syl": [
+      "so"
+     ]
+    },
+    {
+     "w": "easy",
+     "syl": [
+      "easy"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 48,
+   "text": "Ah 変わる世界の情景を此処で見つめたい",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Ah",
+     "syl": [
+      "ah"
+     ]
+    },
+    {
+     "w": "変わる世界の情景を此処で見つめたい",
+     "syl": [
+      "kawaru",
+      "sekai",
+      "no",
+      "joukei",
+      "wo",
+      "koko",
+      "de",
+      "mitsumetai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 49,
+   "text": "変わりゆく自分にも出会えたら良いな... なんてね",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "変わりゆく自分にも出会えたら良いな...",
+     "syl": [
+      "kawariyuku",
+      "jibun’",
+      "ni",
+      "mo",
+      "deaetara",
+      "ii",
+      "na…"
+     ]
+    },
+    {
+     "w": "なんてね",
+     "syl": [
+      "nan’te",
+      "ne"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 50,
+   "text": "たまにはちょっとノスタルジックになったりするけど",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "たまにはちょっとノスタルジックになったりするけど",
+     "syl": [
+      "tama",
+      "ni",
+      "wa",
+      "chotto",
+      "nostalgic",
+      "ni",
+      "nattari",
+      "suru",
+      "kedo"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 51,
+   "text": "思い出せることは全て 私 手にしてきた事",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "思い出せることは全て",
+     "syl": [
+      "omoidaseru",
+      "koto",
+      "wa",
+      "subete"
+     ]
+    },
+    {
+     "w": "私",
+     "syl": [
+      "watashi",
+      "te"
+     ]
+    },
+    {
+     "w": "手にしてきた事",
+     "syl": [
+      "ni",
+      "shitekita",
+      "koto"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 52,
+   "text": "How can I get it with you?",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "How",
+     "syl": [
+      "how"
+     ]
+    },
+    {
+     "w": "can",
+     "syl": [
+      "can"
+     ]
+    },
+    {
+     "w": "I",
+     "syl": [
+      "I"
+     ]
+    },
+    {
+     "w": "get",
+     "syl": [
+      "get"
+     ]
+    },
+    {
+     "w": "it",
+     "syl": [
+      "it"
+     ]
+    },
+    {
+     "w": "with",
+     "syl": [
+      "with"
+     ]
+    },
+    {
+     "w": "you?",
+     "syl": [
+      "you?"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 53,
+   "text": "Temptation is taking, taking over",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Temptation",
+     "syl": [
+      "temptation"
+     ]
+    },
+    {
+     "w": "is",
+     "syl": [
+      "is"
+     ]
+    },
+    {
+     "w": "taking,",
+     "syl": [
+      "taking,"
+     ]
+    },
+    {
+     "w": "taking",
+     "syl": [
+      "taking"
+     ]
+    },
+    {
+     "w": "over",
+     "syl": [
+      "over"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 54,
+   "text": "鼓動が歌う I just keep my desire",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "鼓動が歌う",
+     "syl": [
+      "kodou",
+      "wa"
+     ]
+    },
+    {
+     "w": "I",
+     "syl": [
+      "utau"
+     ]
+    },
+    {
+     "w": "just",
+     "syl": [
+      "I"
+     ]
+    },
+    {
+     "w": "keep",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "keep"
+     ]
+    },
+    {
+     "w": "desire",
+     "syl": [
+      "my",
+      "desire"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 55,
+   "text": "幾千の時さえ piece of cake like ordinal breathing",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "幾千の時さえ",
+     "syl": [
+      "ikusen’",
+      "no"
+     ]
+    },
+    {
+     "w": "piece",
+     "syl": [
+      "toki",
+      "sae"
+     ]
+    },
+    {
+     "w": "of",
+     "syl": [
+      "piece"
+     ]
+    },
+    {
+     "w": "cake",
+     "syl": [
+      "of"
+     ]
+    },
+    {
+     "w": "like",
+     "syl": [
+      "cake"
+     ]
+    },
+    {
+     "w": "ordinal",
+     "syl": [
+      "like",
+      "ordinal"
+     ]
+    },
+    {
+     "w": "breathing",
+     "syl": [
+      "breathing"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 56,
+   "text": "超えてゆける 願いを小心",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "超えてゆける",
+     "syl": [
+      "koeteyukeru",
+      "negai"
+     ]
+    },
+    {
+     "w": "願いを小心",
+     "syl": [
+      "wo",
+      "shoushin’"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 57,
+   "text": "二つに一つの世界で目覚めた our fate",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "二つに一つの世界で目覚めた",
+     "syl": [
+      "futatsu",
+      "ni",
+      "hitotsu",
+      "no",
+      "sekai",
+      "de"
+     ]
+    },
+    {
+     "w": "our",
+     "syl": [
+      "mezameta"
+     ]
+    },
+    {
+     "w": "fate",
+     "syl": [
+      "our",
+      "fate"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 58,
+   "text": "いつまでも言わせて anything in my hands",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "いつまでも言わせて",
+     "syl": [
+      "itsumademo",
+      "iwasete"
+     ]
+    },
+    {
+     "w": "anything",
+     "syl": [
+      "anything"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "hands",
+     "syl": [
+      "hands"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 59,
+   "text": "ただ一つの後悔も背負う気はないわ",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "ただ一つの後悔も背負う気はないわ",
+     "syl": [
+      "tada",
+      "hitotsu",
+      "no",
+      "koukai",
+      "mo",
+      "seou",
+      "ki",
+      "wa",
+      "nai",
+      "wa"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 60,
+   "text": "今を生きて 乙女のように",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "今を生きて",
+     "syl": [
+      "ima",
+      "wo",
+      "ikite"
+     ]
+    },
+    {
+     "w": "乙女のように",
+     "syl": [
+      "otome",
+      "no",
+      "you",
+      "ni"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 61,
+   "text": "\"Now let me please, ask you a question\"",
+   "method": "chunks",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "\"Now",
+     "syl": [
+      "“now"
+     ]
+    },
+    {
+     "w": "let",
+     "syl": [
+      "let"
+     ]
+    },
+    {
+     "w": "me",
+     "syl": [
+      "me"
+     ]
+    },
+    {
+     "w": "please,",
+     "syl": [
+      "please,"
+     ]
+    },
+    {
+     "w": "ask",
+     "syl": [
+      "ask"
+     ]
+    },
+    {
+     "w": "you",
+     "syl": [
+      "you"
+     ]
+    },
+    {
+     "w": "a",
+     "syl": [
+      "a"
+     ]
+    },
+    {
+     "w": "question\"",
+     "syl": [
+      "question”"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 62,
+   "text": "私のように？ なりたいだなんて... まぁ当たり前ね",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "私のように？",
+     "syl": [
+      "watashi",
+      "no",
+      "you",
+      "ni?"
+     ]
+    },
+    {
+     "w": "なりたいだなんて...",
+     "syl": [
+      "naritai",
+      "da",
+      "nan’te",
+      "…"
+     ]
+    },
+    {
+     "w": "まぁ当たり前ね",
+     "syl": [
+      "maa",
+      "atari",
+      "mae",
+      "ne"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 63,
+   "text": "コレクションに空きはいつでもあるのよ baby",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "コレクションに空きはいつでもあるのよ",
+     "syl": [
+      "collection",
+      "ni",
+      "aki",
+      "wa",
+      "itsudemo",
+      "aru",
+      "no"
+     ]
+    },
+    {
+     "w": "baby",
+     "syl": [
+      "yo",
+      "baby"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 64,
+   "text": "気持ちはまさにロイヤルセレブレーション",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "気持ちはまさにロイヤルセレブレーション",
+     "syl": [
+      "kimochi",
+      "wa",
+      "masa",
+      "ni",
+      "royal",
+      "celebration"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 65,
+   "text": "Just be in fantasia それも悪くない",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "Just",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "in"
+     ]
+    },
+    {
+     "w": "fantasia",
+     "syl": [
+      "fantasia",
+      "sore"
+     ]
+    },
+    {
+     "w": "それも悪くない",
+     "syl": [
+      "mo",
+      "waruku",
+      "nai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 66,
+   "text": "此処にある夢や faith of 私以外",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "此処にある夢や",
+     "syl": [
+      "koko",
+      "ni",
+      "aru",
+      "yume"
+     ]
+    },
+    {
+     "w": "faith",
+     "syl": [
+      "ya"
+     ]
+    },
+    {
+     "w": "of",
+     "syl": [
+      "faith"
+     ]
+    },
+    {
+     "w": "私以外",
+     "syl": [
+      "of",
+      "watashi",
+      "igai"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 67,
+   "text": "飽きるまでふわりふわり風に乗って",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "飽きるまでふわりふわり風に乗って",
+     "syl": [
+      "akiru",
+      "made",
+      "fuwarifuwari",
+      "kaze",
+      "ni",
+      "notte"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 68,
+   "text": "気の向くままに we can be in desert years",
+   "method": "ratio",
+   "generated": false,
+   "sparse": false,
+   "words": [
+    {
+     "w": "気の向くままに",
+     "syl": [
+      "ki",
+      "no",
+      "muku",
+      "mama"
+     ]
+    },
+    {
+     "w": "we",
+     "syl": [
+      "ni"
+     ]
+    },
+    {
+     "w": "can",
+     "syl": [
+      "we"
+     ]
+    },
+    {
+     "w": "be",
+     "syl": [
+      "can"
+     ]
+    },
+    {
+     "w": "in",
+     "syl": [
+      "be"
+     ]
+    },
+    {
+     "w": "desert",
+     "syl": [
+      "in",
+      "desert"
+     ]
+    },
+    {
+     "w": "years",
+     "syl": [
+      "years"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 69,
+   "text": "(Just keep my desire)",
+   "method": "generated",
+   "generated": true,
+   "sparse": false,
+   "words": [
+    {
+     "w": "(Just",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "keep",
+     "syl": [
+      "keep"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "desire)",
+     "syl": [
+      "desire"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 70,
+   "text": "(Don't know where you'll come)",
+   "method": "generated",
+   "generated": true,
+   "sparse": false,
+   "words": [
+    {
+     "w": "(Don't",
+     "syl": [
+      "don't"
+     ]
+    },
+    {
+     "w": "know",
+     "syl": [
+      "know"
+     ]
+    },
+    {
+     "w": "where",
+     "syl": [
+      "where"
+     ]
+    },
+    {
+     "w": "you'll",
+     "syl": [
+      "you'll"
+     ]
+    },
+    {
+     "w": "come)",
+     "syl": [
+      "come"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 71,
+   "text": "(Just keep my desire)",
+   "method": "generated",
+   "generated": true,
+   "sparse": false,
+   "words": [
+    {
+     "w": "(Just",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "keep",
+     "syl": [
+      "keep"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "desire)",
+     "syl": [
+      "desire"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 72,
+   "text": "(Don't know where you'll come)",
+   "method": "generated",
+   "generated": true,
+   "sparse": false,
+   "words": [
+    {
+     "w": "(Don't",
+     "syl": [
+      "don't"
+     ]
+    },
+    {
+     "w": "know",
+     "syl": [
+      "know"
+     ]
+    },
+    {
+     "w": "where",
+     "syl": [
+      "where"
+     ]
+    },
+    {
+     "w": "you'll",
+     "syl": [
+      "you'll"
+     ]
+    },
+    {
+     "w": "come)",
+     "syl": [
+      "come"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 73,
+   "text": "(Just keep my desire)",
+   "method": "generated",
+   "generated": true,
+   "sparse": false,
+   "words": [
+    {
+     "w": "(Just",
+     "syl": [
+      "just"
+     ]
+    },
+    {
+     "w": "keep",
+     "syl": [
+      "keep"
+     ]
+    },
+    {
+     "w": "my",
+     "syl": [
+      "my"
+     ]
+    },
+    {
+     "w": "desire)",
+     "syl": [
+      "desire"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+# engine / app
+node_modules/
+.vite/
+public/data/
+public/audio/
+
+# renders
+out/
+
+# analysis: python env, model weights, decodes and intermediates (regenerable)
+.venv/
+analysis/.venv/
+analysis/.cache/
+analysis/work/
+analysis/qa/
+analysis/stems/
+__pycache__/
+*.pyc
+
+# static toolchain installed without root
+tools/
+
+# upstream reference clone (read-only)
+pdoom-video/
+
+.DS_Store

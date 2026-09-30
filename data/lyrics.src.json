@@ -1,0 +1,949 @@
+{
+ "source": "audio/lyrics.txt",
+ "note": "Ground truth for lyric alignment.  Line order IS performance order: the repeats are already written out in the file (only the section-specific wording differs), so the 74 lines are the 74 sung line occurrences. Expanding the file's own duplicates again would double-count them -- add to extra_occurrences only a repeat the audio proves the sheet omits. anchor / morae_override are the hand-fix slots.",
+ "occurrence_model": {
+  "order": "file order",
+  "n_occurrences": 74,
+  "n_unique_texts": 57,
+  "repeats_in_file": [
+   {
+    "text": "It's not really fun knowing the choices",
+    "in_file": 3
+   },
+   {
+    "text": "Please now let you be in my sweet little thangs",
+    "in_file": 3
+   },
+   {
+    "text": "(Just keep my desire)",
+    "in_file": 3
+   },
+   {
+    "text": "短き人の命 パッと咲かせてあげるから on my Tao",
+    "in_file": 2
+   },
+   {
+    "text": "往く先々待つ玩具たち",
+    "in_file": 2
+   },
+   {
+    "text": "幾千の時さえ piece of cake like ordinal breathing",
+    "in_file": 2
+   },
+   {
+    "text": "超えてゆける 願いを小心",
+    "in_file": 2
+   },
+   {
+    "text": "ただ一つの後悔も背負う気はないわ",
+    "in_file": 2
+   },
+   {
+    "text": "今を生きて 乙女のように",
+    "in_file": 2
+   },
+   {
+    "text": "\"Now let me please, ask you a question\"",
+    "in_file": 2
+   },
+   {
+    "text": "Just be in fantasia それも悪くない",
+    "in_file": 2
+   },
+   {
+    "text": "此処にある夢や faith of 私以外",
+    "in_file": 2
+   },
+   {
+    "text": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+    "in_file": 2
+   },
+   {
+    "text": "(Don't know where you'll come)",
+    "in_file": 2
+   }
+  ],
+  "extra_occurrences": []
+ },
+ "language": {
+  "rule": "per run: a CJK run inside a token that contains kana is Japanese unless listed in zh_runs; a token with no kana is Japanese iff listed in ja_tokens, otherwise Chinese -- and reported, never assumed",
+  "ja_tokens": [
+   "今",
+   "私",
+   "私以外"
+  ],
+  "zh_runs": [
+   "我想要的一切"
+  ]
+ },
+ "offsets": {
+  "offset_ms": 0.0
+ },
+ "lines": [
+  {
+   "i": 0,
+   "text": "Ah 心に渦巻く 計算や欲望は全て",
+   "words": [
+    "Ah",
+    "心に渦巻く",
+    "計算や欲望は全て"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 1,
+   "text": "笑顔で隠れる 少しだけ邪なPoker Face",
+   "words": [
+    "笑顔で隠れる",
+    "少しだけ邪なPoker",
+    "Face"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 2,
+   "text": "短き人の命 パッと咲かせてあげるから on my Tao",
+   "words": [
+    "短き人の命",
+    "パッと咲かせてあげるから",
+    "on",
+    "my",
+    "Tao"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 3,
+   "text": "愛らしいお人形になりましょう I'm ready",
+   "words": [
+    "愛らしいお人形になりましょう",
+    "I'm",
+    "ready"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 4,
+   "text": "It's not really fun knowing the choices",
+   "words": [
+    "It's",
+    "not",
+    "really",
+    "fun",
+    "knowing",
+    "the",
+    "choices"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 5,
+   "text": "往く先々待つ玩具たち",
+   "words": [
+    "往く先々待つ玩具たち"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 6,
+   "text": "我想要的一切！さぁ順番",
+   "words": [
+    "我想要的一切！さぁ順番"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 7,
+   "text": "\"良い子\"は先に お持ち帰り",
+   "words": [
+    "\"良い子\"は先に",
+    "お持ち帰り"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 8,
+   "text": "Please now let you be in my sweet little thangs",
+   "words": [
+    "Please",
+    "now",
+    "let",
+    "you",
+    "be",
+    "in",
+    "my",
+    "sweet",
+    "little",
+    "thangs"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 9,
+   "text": "ヤな事ナシの桃源郷へ 堅いことは此処では言わないで",
+   "words": [
+    "ヤな事ナシの桃源郷へ",
+    "堅いことは此処では言わないで"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 10,
+   "text": "果てしなく続く幻想郷",
+   "words": [
+    "果てしなく続く幻想郷"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 11,
+   "text": "How can I get what I want from around the world?",
+   "words": [
+    "How",
+    "can",
+    "I",
+    "get",
+    "what",
+    "I",
+    "want",
+    "from",
+    "around",
+    "the",
+    "world?"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 12,
+   "text": "童子のように 鼓動が歌う I just keep my desire",
+   "words": [
+    "童子のように",
+    "鼓動が歌う",
+    "I",
+    "just",
+    "keep",
+    "my",
+    "desire"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 13,
+   "text": "幾千の時さえ piece of cake like ordinal breathing",
+   "words": [
+    "幾千の時さえ",
+    "piece",
+    "of",
+    "cake",
+    "like",
+    "ordinal",
+    "breathing"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 14,
+   "text": "超えてゆける 願いを小心",
+   "words": [
+    "超えてゆける",
+    "願いを小心"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 15,
+   "text": "「二つに一つ」なんて退屈な事 言わないで頂戴",
+   "words": [
+    "「二つに一つ」なんて退屈な事",
+    "言わないで頂戴"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 16,
+   "text": "Anything in my hands",
+   "words": [
+    "Anything",
+    "in",
+    "my",
+    "hands"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 17,
+   "text": "ただ一つの後悔も背負う気はないわ",
+   "words": [
+    "ただ一つの後悔も背負う気はないわ"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 18,
+   "text": "今を生きて 乙女のように",
+   "words": [
+    "今を生きて",
+    "乙女のように"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 19,
+   "text": "\"Now let me please, ask you a question\"",
+   "words": [
+    "\"Now",
+    "let",
+    "me",
+    "please,",
+    "ask",
+    "you",
+    "a",
+    "question\""
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 20,
+   "text": "私のように？ なりたいだなんて... お莫迦さんは",
+   "words": [
+    "私のように？",
+    "なりたいだなんて...",
+    "お莫迦さんは"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 21,
+   "text": "コレクションに加わる事から始めて",
+   "words": [
+    "コレクションに加わる事から始めて"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 22,
+   "text": "それで如何？イケないセレブレーション",
+   "words": [
+    "それで如何？イケないセレブレーション"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 23,
+   "text": "Just be in fantasia それも悪くない",
+   "words": [
+    "Just",
+    "be",
+    "in",
+    "fantasia",
+    "それも悪くない"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 24,
+   "text": "此処にある夢や faith of 私以外",
+   "words": [
+    "此処にある夢や",
+    "faith",
+    "of",
+    "私以外"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 25,
+   "text": "飽きるまでふわりふわり雲のように",
+   "words": [
+    "飽きるまでふわりふわり雲のように"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 26,
+   "text": "自由に流れてくdesert years",
+   "words": [
+    "自由に流れてくdesert",
+    "years"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 27,
+   "text": "Ah「いつでも待ってる」そんなロマンチックな言葉",
+   "words": [
+    "Ah「いつでも待ってる」そんなロマンチックな言葉"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 28,
+   "text": "痺れて 感じて 骨抜きにさせてあげちゃうわ",
+   "words": [
+    "痺れて",
+    "感じて",
+    "骨抜きにさせてあげちゃうわ"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 29,
+   "text": "短き人の命 パッと咲かせてあげるから on my Tao",
+   "words": [
+    "短き人の命",
+    "パッと咲かせてあげるから",
+    "on",
+    "my",
+    "Tao"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 30,
+   "text": "愛らしい人形になりましょう you're welcome",
+   "words": [
+    "愛らしい人形になりましょう",
+    "you're",
+    "welcome"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 31,
+   "text": "It's not really fun knowing the choices",
+   "words": [
+    "It's",
+    "not",
+    "really",
+    "fun",
+    "knowing",
+    "the",
+    "choices"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 32,
+   "text": "ギャンブルライクに生きましょう",
+   "words": [
+    "ギャンブルライクに生きましょう"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 33,
+   "text": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+   "words": [
+    "我想要的一切！さぁ順番守らない子もお持ち帰り"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 34,
+   "text": "Please now let you be in my sweet little thangs",
+   "words": [
+    "Please",
+    "now",
+    "let",
+    "you",
+    "be",
+    "in",
+    "my",
+    "sweet",
+    "little",
+    "thangs"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 35,
+   "text": "いいコト尽くしの理想郷 堅いことは此処では言わないで",
+   "words": [
+    "いいコト尽くしの理想郷",
+    "堅いことは此処では言わないで"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 36,
+   "text": "まぁすぐに言えなくなるから",
+   "words": [
+    "まぁすぐに言えなくなるから"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 37,
+   "text": "It's not really fun knowing the choices",
+   "words": [
+    "It's",
+    "not",
+    "really",
+    "fun",
+    "knowing",
+    "the",
+    "choices"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 38,
+   "text": "往く先々待つ玩具たち",
+   "words": [
+    "往く先々待つ玩具たち"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 39,
+   "text": "我想要的一切！さぁ順番守らない子もお持ち帰り",
+   "words": [
+    "我想要的一切！さぁ順番守らない子もお持ち帰り"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 40,
+   "text": "Please now let you be in my sweet little thangs",
+   "words": [
+    "Please",
+    "now",
+    "let",
+    "you",
+    "be",
+    "in",
+    "my",
+    "sweet",
+    "little",
+    "thangs"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 41,
+   "text": "ヤな事ナシの桃源郷へ 片道切符握りしめて",
+   "words": [
+    "ヤな事ナシの桃源郷へ",
+    "片道切符握りしめて"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 42,
+   "text": "夢の都へDive",
+   "words": [
+    "夢の都へDive"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 43,
+   "text": "手に入れるチャンスが転がっているのに",
+   "words": [
+    "手に入れるチャンスが転がっているのに"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 44,
+   "text": "見つめてるだけの自分なんて見たくないのよ baby",
+   "words": [
+    "見つめてるだけの自分なんて見たくないのよ",
+    "baby"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 45,
+   "text": "How many things 人間は後悔を重ねていくのでしょう",
+   "words": [
+    "How",
+    "many",
+    "things",
+    "人間は後悔を重ねていくのでしょう"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 46,
+   "text": "So you can beg me 救いの手を",
+   "words": [
+    "So",
+    "you",
+    "can",
+    "beg",
+    "me",
+    "救いの手を"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 47,
+   "text": "今 此処へ 差し出すわ It's so easy",
+   "words": [
+    "今",
+    "此処へ",
+    "差し出すわ",
+    "It's",
+    "so",
+    "easy"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 48,
+   "text": "Ah 変わる世界の情景を此処で見つめたい",
+   "words": [
+    "Ah",
+    "変わる世界の情景を此処で見つめたい"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 49,
+   "text": "変わりゆく自分にも出会えたら良いな... なんてね",
+   "words": [
+    "変わりゆく自分にも出会えたら良いな...",
+    "なんてね"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 50,
+   "text": "たまにはちょっとノスタルジックになったりするけど",
+   "words": [
+    "たまにはちょっとノスタルジックになったりするけど"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 51,
+   "text": "思い出せることは全て 私 手にしてきた事",
+   "words": [
+    "思い出せることは全て",
+    "私",
+    "手にしてきた事"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 52,
+   "text": "How can I get it with you?",
+   "words": [
+    "How",
+    "can",
+    "I",
+    "get",
+    "it",
+    "with",
+    "you?"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 53,
+   "text": "Temptation is taking, taking over",
+   "words": [
+    "Temptation",
+    "is",
+    "taking,",
+    "taking",
+    "over"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 54,
+   "text": "鼓動が歌う I just keep my desire",
+   "words": [
+    "鼓動が歌う",
+    "I",
+    "just",
+    "keep",
+    "my",
+    "desire"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 55,
+   "text": "幾千の時さえ piece of cake like ordinal breathing",
+   "words": [
+    "幾千の時さえ",
+    "piece",
+    "of",
+    "cake",
+    "like",
+    "ordinal",
+    "breathing"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 56,
+   "text": "超えてゆける 願いを小心",
+   "words": [
+    "超えてゆける",
+    "願いを小心"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 57,
+   "text": "二つに一つの世界で目覚めた our fate",
+   "words": [
+    "二つに一つの世界で目覚めた",
+    "our",
+    "fate"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 58,
+   "text": "いつまでも言わせて anything in my hands",
+   "words": [
+    "いつまでも言わせて",
+    "anything",
+    "in",
+    "my",
+    "hands"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 59,
+   "text": "ただ一つの後悔も背負う気はないわ",
+   "words": [
+    "ただ一つの後悔も背負う気はないわ"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 60,
+   "text": "今を生きて 乙女のように",
+   "words": [
+    "今を生きて",
+    "乙女のように"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 61,
+   "text": "\"Now let me please, ask you a question\"",
+   "words": [
+    "\"Now",
+    "let",
+    "me",
+    "please,",
+    "ask",
+    "you",
+    "a",
+    "question\""
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 62,
+   "text": "私のように？ なりたいだなんて... まぁ当たり前ね",
+   "words": [
+    "私のように？",
+    "なりたいだなんて...",
+    "まぁ当たり前ね"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 63,
+   "text": "コレクションに空きはいつでもあるのよ baby",
+   "words": [
+    "コレクションに空きはいつでもあるのよ",
+    "baby"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 64,
+   "text": "気持ちはまさにロイヤルセレブレーション",
+   "words": [
+    "気持ちはまさにロイヤルセレブレーション"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 65,
+   "text": "Just be in fantasia それも悪くない",
+   "words": [
+    "Just",
+    "be",
+    "in",
+    "fantasia",
+    "それも悪くない"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 66,
+   "text": "此処にある夢や faith of 私以外",
+   "words": [
+    "此処にある夢や",
+    "faith",
+    "of",
+    "私以外"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 67,
+   "text": "飽きるまでふわりふわり風に乗って",
+   "words": [
+    "飽きるまでふわりふわり風に乗って"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 68,
+   "text": "気の向くままに we can be in desert years",
+   "words": [
+    "気の向くままに",
+    "we",
+    "can",
+    "be",
+    "in",
+    "desert",
+    "years"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 69,
+   "text": "(Just keep my desire)",
+   "words": [
+    "(Just",
+    "keep",
+    "my",
+    "desire)"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 70,
+   "text": "(Don't know where you'll come)",
+   "words": [
+    "(Don't",
+    "know",
+    "where",
+    "you'll",
+    "come)"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 71,
+   "text": "(Just keep my desire)",
+   "words": [
+    "(Just",
+    "keep",
+    "my",
+    "desire)"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 72,
+   "text": "(Don't know where you'll come)",
+   "words": [
+    "(Don't",
+    "know",
+    "where",
+    "you'll",
+    "come)"
+   ],
+   "anchor": null,
+   "morae_override": null
+  },
+  {
+   "i": 73,
+   "text": "(Just keep my desire)",
+   "words": [
+    "(Just",
+    "keep",
+    "my",
+    "desire)"
+   ],
+   "anchor": null,
+   "morae_override": null
+  }
+ ]
+}
